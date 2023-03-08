@@ -1,0 +1,62 @@
+/* Name: Jingxuan Chang
+Date: March 7, 2023
+Section: CST8285 303
+Lab: 303
+File: inspiration.css
+Lab objective: practice javascript*/
+
+body{
+    font-family: 'Space Mono', monospace, sans-serif;
+    background-color: #EDE9D5;
+    padding: 100px 10px;
+}
+
+h1{
+    font-size: 14pt;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#quote-container{
+    border: solid 3pt #E7AB9A;
+    border-radius: 15pt;
+    background-color: #617143;
+    max-width: 70%;
+    margin: auto;
+    padding: 15px;
+}
+
+#quote-button{
+    border-radius: 15pt;
+    position: fixed;
+    top: 60%;
+    left: 48%;
+    background-color: #DF7857;
+    border: solid #617143 1pt;
+    padding: 5px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+#quote-textbox{
+    font-size: 13pt;
+    color: aliceblue;
+    text-align: center;
+}
+
+#quote-authorbox{
+    font-style: italic;
+    color: aliceblue;
+    font-size: 13pt;
+    text-align: right;
+}
+
+footer{
+    font-size: 9pt;
+    margin: 10px auto;
+    position: fixed;
+    bottom: 7px;
+    left: 5%;
+    text-align: left;
+    max-width: 40%;
+}
